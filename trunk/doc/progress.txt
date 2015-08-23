@@ -1,0 +1,13 @@
+Milestones:
+
+1. Sterowanie ci¹g³e (triaki ca³y czas wysterowane):
+	- ¿arówka OK
+	- œwietlówka OK
+3. Sterowanie impulsowe - triaki zapalane tylko w zerze sieci przez krótki czas.
+	- Trouble: 	zla synchronizacja z sieci¹
+	  Solution:	a) Trzeba dodaæ rezystory pod³¹czone przed kondensatorem w zasilaczu i doprowadziæ 
+			sygna³ synchronizacji do procka. 
+			b) Spróbowaæ dodaæ kondensator filtruj¹cy 10n miêdzy INT0 a masê.
+	  Impact:	Poprawiæ PCB i schemat, ustaliæ czasy opóŸnienia w sofcie. Wejœcie INT0 jako Hi-Z
+4. Zmiana stanu po chwilowym wy³¹czeniu napiêcia sieci (200ms).
+5. Zapis stanu do FLASH.

@@ -1,0 +1,13 @@
+Informacje dotyczące płytki.
+
+Wersja:
+PcbNew
+Build: (2010-03-14)-final
+wxWidgets 2.8.10 Unicode on 64 Bits GNU/Linux
+
+Otwór na środku płytki o średnicy około 15mm, obrys otworu na warstwie PCB_Edges.
+
+Rodzaje ścieżek:
+miedź: back,
+opis: drawings,
+ignorowane: comments.

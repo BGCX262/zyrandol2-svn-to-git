@@ -1,0 +1,21 @@
+﻿Rezystory:
+R1         		10k         
+R2,R3      		100R        
+R4,R5,R7,R8      	470k        
+R6         		330R/1W     
+
+KOndensatory:
+C1         		470nF/250VAC
+C2         		1000uF/16V  
+C3         		100nF       
+
+Polprzewodniki:
+D1         		1N4007      
+DZ1        		5V1         
+TR1,TR2    		BT136       
+U1         		ATTINY13    
+
+Inne:
+CON1,CON2,CON3 	Zlacze ARK2
+CON4       		Goldpin 2x3
+Podstawka 8dip pod U1

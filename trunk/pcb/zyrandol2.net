@@ -1,0 +1,174 @@
+# EESchema Netlist Version 1.1 created  14/10/2012 12:09:55
+(
+ ( /50300923 $noname  CON4 ISP {Lib=PW_ISP_AVR}
+  (    1 N-000004 )
+  (    2 N-000014 )
+  (    3 N-000005 )
+  (    4 N-000006 )
+  (    5 N-000016 )
+  (    6 N-000007 )
+ )
+ ( /500BE365 $noname  R8 470k {Lib=PW_R}
+  (    1 N-000003 )
+  (    2 N-000017 )
+ )
+ ( /5009AA58 $noname  CON1 230VAC {Lib=ARC2}
+  (    1 N-000017 )
+  (    2 N-000014 )
+ )
+ ( /5009AA4F $noname  CON2 LIGHT1 {Lib=ARC2}
+  (    1 N-000002 )
+  (    2 N-000017 )
+ )
+ ( /5009AA4A $noname  CON3 LIGHT2 {Lib=ARC2}
+  (    1 N-000017 )
+  (    2 N-000001 )
+ )
+ ( /500994CF $noname  C2 1000uF/16V {Lib=CEL}
+  (    1 N-000014 )
+  (    2 N-000007 )
+ )
+ ( /50099767 $noname  DZ1 5V1 {Lib=PW_DZ}
+  (    1 N-000011 )
+  (    2 N-000014 )
+ )
+ ( /500998FF $noname  R2 100R {Lib=PW_R}
+  (    1 N-000010 )
+  (    2 N-000008 )
+ )
+ ( /500998E2 $noname  R3 100R {Lib=PW_R}
+  (    1 N-000009 )
+  (    2 N-000015 )
+ )
+ ( /500998A7 $noname  C3 100nF {Lib=PW_C}
+  (    1 N-000014 )
+  (    2 N-000007 )
+ )
+ ( /50099882 $noname  R1 10k {Lib=PW_R}
+  (    1 N-000016 )
+  (    2 N-000014 )
+ )
+ ( /50099852 $noname  R7 470k {Lib=PW_R}
+  (    1 N-000003 )
+  (    2 N-000004 )
+ )
+ ( /50099802 $noname  R5 470k {Lib=PW_R}
+  (    1 N-000012 )
+  (    2 N-000013 )
+ )
+ ( /500997FA $noname  R4 470k {Lib=PW_R}
+  (    1 N-000017 )
+  (    2 N-000012 )
+ )
+ ( /500994FF $noname  D1 1N4007 {Lib=PW_D}
+  (    1 N-000007 )
+  (    2 N-000011 )
+ )
+ ( /500994F7 $noname  R6 330R/1W {Lib=PW_R}
+  (    1 N-000013 )
+  (    2 N-000011 )
+ )
+ ( /500994DE $noname  C1 470nF/250VAC {Lib=PW_C}
+  (    1 N-000013 )
+  (    2 N-000017 )
+ )
+ ( /500994B9 $noname  TR2 BT136 {Lib=BT136}
+  (    1 N-000014 )
+  (    2 N-000002 )
+  (    3 N-000010 )
+ )
+ ( /500994AC $noname  TR1 BT136 {Lib=BT136}
+  (    1 N-000014 )
+  (    2 N-000001 )
+  (    3 N-000009 )
+ )
+ ( /50099492 $noname  U1 ATTINY13 {Lib=ATTINY13}
+  (    1 N-000016 )
+  (    2 N-000008 )
+  (    3 N-000015 )
+  (    4 N-000007 )
+  (    5 N-000006 )
+  (    6 N-000004 )
+  (    7 N-000005 )
+  (    8 N-000014 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ C
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ TR1 2
+ CON3 2
+Net 2 "" ""
+ CON2 1
+ TR2 2
+Net 3 "" ""
+ R8 1
+ R7 1
+Net 4 "" ""
+ U1 6
+ R7 2
+ CON4 1
+Net 5 "" ""
+ U1 7
+ CON4 3
+Net 6 "" ""
+ CON4 4
+ U1 5
+Net 7 "" ""
+ U1 4
+ C3 2
+ D1 1
+ CON4 6
+ C2 2
+Net 8 "" ""
+ U1 2
+ R2 2
+Net 9 "" ""
+ R3 1
+ TR1 3
+Net 10 "" ""
+ TR2 3
+ R2 1
+Net 11 "" ""
+ DZ1 1
+ R6 2
+ D1 2
+Net 12 "" ""
+ R5 1
+ R4 2
+Net 13 "" ""
+ R6 1
+ R5 2
+ C1 1
+Net 14 "" ""
+ R1 2
+ CON4 2
+ CON1 2
+ C2 1
+ DZ1 2
+ TR1 1
+ U1 8
+ TR2 1
+ C3 1
+Net 15 "" ""
+ U1 3
+ R3 2
+Net 16 "" ""
+ U1 1
+ CON4 5
+ R1 1
+Net 17 "" ""
+ C1 2
+ CON3 1
+ R4 1
+ CON2 2
+ CON1 1
+ R8 2
+}
+#End

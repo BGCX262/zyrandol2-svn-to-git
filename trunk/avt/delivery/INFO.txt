@@ -1,0 +1,10 @@
+Struktura katalogów:
+./doc - opis projektu, spisy
+./avr - zrodlo programu 
+./avr/default - plik Makefile i binarka 
+./pcb - projekt plytki i schemat	
+
+Roznice miedzy prototypem a wersja aktualna:
+- pozamieniane miejscami zaciski LIGHT1 i 230VAC
+- w prototypie zamontowalem uklad w obudowie SOIC zamiast PDIP
+- triak TR2 jest odwrócony o 90 stopni, triak TR1 odwrócony o 180 stopni

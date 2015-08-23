@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 22 Jul 2012 01:29:47 PM CEST
+
+BeginCmp
+TimeStamp = /500994DE;
+Reference = C1;
+ValeurCmp = 470nF/250VAC;
+IdModule  = PW_CAP_MKT;
+EndCmp
+
+BeginCmp
+TimeStamp = /500994CF;
+Reference = C2;
+ValeurCmp = 1000uF/16V;
+IdModule  = PW_CEL_200;
+EndCmp
+
+BeginCmp
+TimeStamp = /500998A7;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = PW_C200;
+EndCmp
+
+BeginCmp
+TimeStamp = /5009AA58;
+Reference = CON1;
+ValeurCmp = 230VAC;
+IdModule  = ARC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5009AA4F;
+Reference = CON2;
+ValeurCmp = LIGHT1;
+IdModule  = ARC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5009AA4A;
+Reference = CON3;
+ValeurCmp = LIGHT2;
+IdModule  = ARC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5009A25E;
+Reference = CON4;
+ValeurCmp = ISP;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /500994FF;
+Reference = D1;
+ValeurCmp = 1N4007;
+IdModule  = PW_D_600;
+EndCmp
+
+BeginCmp
+TimeStamp = /50099767;
+Reference = DZ1;
+ValeurCmp = 5V6;
+IdModule  = PW_D_600;
+EndCmp
+
+BeginCmp
+TimeStamp = /50099882;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /500998FF;
+Reference = R2;
+ValeurCmp = 100R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /500998E2;
+Reference = R3;
+ValeurCmp = 100R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /500997FA;
+Reference = R4;
+ValeurCmp = 470k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /50099802;
+Reference = R5;
+ValeurCmp = 470k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /500994F7;
+Reference = R6;
+ValeurCmp = 330R/1W;
+IdModule  = PW_R_1000;
+EndCmp
+
+BeginCmp
+TimeStamp = /50099852;
+Reference = R7;
+ValeurCmp = 4k7;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /500BE365;
+Reference = R8;
+ValeurCmp = 470k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /500994AC;
+Reference = TR1;
+ValeurCmp = BT136;
+IdModule  = PW_TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /500994B9;
+Reference = TR2;
+ValeurCmp = BT136;
+IdModule  = PW_TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /50099492;
+Reference = U1;
+ValeurCmp = ATTINY13;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+EndListe

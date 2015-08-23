@@ -1,0 +1,49 @@
+eeschema (2011-11-27 BZR 3249)-stable  >> Creation date: 16/10/2012 21:44:01
+
+#Cmp ( order = Reference )
+| C1         470nF/250VAC
+| C2         1000uF/16V  
+| C3         100nF       
+| CON1       230VAC      
+| CON2       LIGHT1      
+| CON3       LIGHT2      
+| CON4       ISP         
+| D1         1N4007      
+| DZ1        5V1         
+| R1         10k         
+| R2         100R        
+| R3         100R        
+| R4         470k        
+| R5         470k        
+| R6         330R/1W     
+| R7         470k        
+| R8         470k        
+| TR1        BT136       
+| TR2        BT136       
+| U1         ATTINY13    
+#End Cmp
+
+#Cmp ( order = Value )
+| 1000uF/16V   C2        
+| 100nF        C3        
+| 100R         R2        
+| 100R         R3        
+| 10k          R1        
+| 1N4007       D1        
+| 230VAC       CON1      
+| 330R/1W      R6        
+| 470k         R4        
+| 470k         R5        
+| 470k         R7        
+| 470k         R8        
+| 470nF/250VAC C1        
+| 5V1          DZ1       
+| ATTINY13     U1        
+| BT136        TR1       
+| BT136        TR2       
+| ISP          CON4      
+| LIGHT1       CON2      
+| LIGHT2       CON3      
+#End Cmp
+
+#End List

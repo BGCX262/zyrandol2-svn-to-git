@@ -1,0 +1,490 @@
+
+(session zyrandol2.ses
+  (base_design zyrandol2.dsn)
+  (placement
+    (resolution mil 10)
+    (component PW_TO220
+      (place TR1 76750 -44750 front 90)
+      (place TR2 80250 -46000 front 0)
+    )
+    (component C1
+      (place C3 74750 -58250 front 180)
+    )
+    (component C2V8
+      (place C2 74000 -54250 front 270)
+    )
+    (component D4
+      (place DZ1 68500 -54000 front 0)
+      (place D1 69250 -55500 front 180)
+    )
+    (component "DIP-8__300_ELL"
+      (place U1 78500 -54500 front 180)
+    )
+    (component pin_array_3x2
+      (place CON4 78000 -58500 front 0)
+    )
+    (component R4
+      (place R7 70500 -57250 front 0)
+      (place R5 66750 -49750 front 270)
+      (place R4 66750 -44500 front 270)
+      (place R3 78750 -45250 front 270)
+      (place R2 80250 -49500 front 270)
+      (place R1 82000 -54250 front 270)
+    )
+    (component R5
+      (place R6 65250 -49000 front 270)
+    )
+    (component ARC2
+      (place CON3 75500 -37250 front 270)
+      (place CON2 86250 -47000 front 180)
+      (place CON1 70500 -37250 front 270)
+    )
+    (component PW_CAP_MKT
+      (place C1 71500 -52750 front 90)
+    )
+    (component 1pin
+      (place 1PIN 75100 -48700 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(2010-03-14)-final")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "N-000001"
+        (wire
+          (path Back 100
+            78000 -53000
+            78463 -53000
+          )
+        )
+        (wire
+          (path Back 100
+            78750 -47250
+            78463 -47537
+            78463 -53000
+          )
+        )
+      )
+      (net "N-000002"
+        (wire
+          (path Back 100
+            80250 -47500
+            81250 -46500
+            81250 -45000
+          )
+        )
+      )
+      (net "N-000006"
+        (wire
+          (path Back 100
+            84250 -49347
+            83885 -49347
+            82356 -47818
+            82356 -43203
+            82153 -43000
+          )
+        )
+        (wire
+          (path Back 100
+            81250 -43000
+            82153 -43000
+          )
+        )
+        (wire
+          (path Back 100
+            84250 -50000
+            84250 -49347
+          )
+        )
+      )
+      (net "N-000008"
+        (wire
+          (path Front 100
+            73750 -43750
+            73750 -42847
+          )
+        )
+        (wire
+          (path Front 100
+            78500 -39250
+            77847 -39250
+          )
+        )
+        (wire
+          (path Front 100
+            77847 -39250
+            77847 -39903
+            74903 -42847
+            73750 -42847
+          )
+        )
+      )
+      (net "N-000009"
+        (wire
+          (path Back 100
+            79000 -56000
+            78537 -56000
+          )
+        )
+        (wire
+          (path Back 100
+            78000 -59000
+            78537 -58463
+            78537 -56000
+          )
+        )
+      )
+      (net "N-000010"
+        (wire
+          (path Back 100
+            72500 -57250
+            75012 -57250
+            76309 -58547
+            77000 -58547
+          )
+        )
+        (wire
+          (path Back 100
+            78000 -56000
+            77537 -56000
+          )
+        )
+        (wire
+          (path Back 100
+            77000 -59000
+            77000 -58547
+          )
+        )
+        (wire
+          (path Back 100
+            77000 -58547
+            77425 -58547
+            77537 -58435
+            77537 -56000
+          )
+        )
+      )
+      (net "N-000011"
+        (wire
+          (path Back 100
+            79000 -53000
+            79000 -52397
+          )
+        )
+        (wire
+          (path Back 100
+            80250 -51500
+            79353 -52397
+            79000 -52397
+          )
+        )
+      )
+      (net "N-000012"
+        (wire
+          (path Back 100
+            80000 -53000
+            79537 -53000
+          )
+        )
+        (wire
+          (path Back 100
+            79000 -59000
+            79537 -58463
+            79537 -53000
+          )
+        )
+        (wire
+          (path Front 100
+            80000 -53000
+            80463 -53000
+          )
+        )
+        (wire
+          (path Front 100
+            82000 -52250
+            81213 -52250
+            80463 -53000
+          )
+        )
+      )
+      (net "N-000013"
+        (wire
+          (path Front 100
+            75750 -43750
+            76278 -43750
+          )
+        )
+        (wire
+          (path Front 100
+            78750 -43250
+            76778 -43250
+            76278 -43750
+          )
+        )
+      )
+      (net "N-000014"
+        (wire
+          (path Back 100
+            66750 -46500
+            66750 -47750
+          )
+        )
+      )
+      (net "N-000015"
+        (wire
+          (path Front 100
+            66750 -51750
+            65250 -50250
+            65250 -46500
+          )
+        )
+        (wire
+          (path Front 100
+            69500 -51750
+            66750 -51750
+          )
+        )
+      )
+      (net "N-000016"
+        (wire
+          (path Front 100
+            73500 -39250
+            72847 -39250
+          )
+        )
+        (wire
+          (path Front 100
+            72847 -39250
+            72847 -39403
+            69500 -42750
+          )
+        )
+        (wire
+          (path Front 100
+            76500 -39250
+            73500 -39250
+          )
+        )
+        (wire
+          (path Front 100
+            69500 -42750
+            67000 -42750
+            66750 -42500
+          )
+        )
+      )
+      (net "N-000018"
+        (wire
+          (path Front 100
+            73750 -55500
+            74000 -55250
+          )
+        )
+        (wire
+          (path Front 100
+            71250 -55500
+            73750 -55500
+          )
+        )
+        (wire
+          (path Front 100
+            73750 -55500
+            73750 -57750
+            74250 -58250
+          )
+        )
+        (wire
+          (path Back 100
+            77000 -53000
+            76537 -53000
+          )
+        )
+        (wire
+          (path Back 100
+            76537 -53000
+            74287 -55250
+            74000 -55250
+          )
+        )
+      )
+      (net "N-000019"
+        (wire
+          (path Back 100
+            65250 -51500
+            66500 -52750
+            66500 -54000
+          )
+        )
+        (wire
+          (path Back 100
+            67250 -55500
+            67250 -56003
+          )
+        )
+        (wire
+          (path Back 100
+            68500 -57250
+            67253 -56003
+            67250 -56003
+          )
+        )
+        (wire
+          (path Back 100
+            67250 -55500
+            67250 -54997
+          )
+        )
+        (wire
+          (path Back 100
+            66500 -54000
+            66500 -54247
+            67250 -54997
+          )
+        )
+      )
+      (net "N-000020"
+        (wire
+          (path Front 100
+            74000 -53986
+            71017 -53986
+            71003 -54000
+          )
+        )
+        (wire
+          (path Front 100
+            76423 -57077
+            76423 -56409
+            74000 -53986
+          )
+        )
+        (wire
+          (path Front 100
+            74000 -53986
+            74000 -53753
+          )
+        )
+        (wire
+          (path Front 100
+            70500 -54000
+            71003 -54000
+          )
+        )
+        (wire
+          (path Front 100
+            76423 -57077
+            75250 -58250
+          )
+        )
+        (wire
+          (path Front 100
+            80232 -56000
+            79155 -57077
+            76423 -57077
+          )
+        )
+        (wire
+          (path Front 100
+            74000 -53250
+            74000 -53753
+          )
+        )
+        (wire
+          (path Back 100
+            74000 -53250
+            74000 -52747
+          )
+        )
+        (wire
+          (path Back 100
+            74750 -43750
+            74750 -44653
+          )
+        )
+        (wire
+          (path Back 100
+            74750 -44653
+            71563 -47840
+            71563 -50310
+            74000 -52747
+          )
+        )
+        (wire
+          (path Back 100
+            74750 -42724
+            74750 -43750
+          )
+        )
+        (wire
+          (path Back 100
+            81250 -44000
+            80347 -44000
+          )
+        )
+        (wire
+          (path Back 100
+            74750 -42724
+            79071 -42724
+            80347 -44000
+          )
+        )
+        (wire
+          (path Back 100
+            72153 -39250
+            72153 -40127
+            74750 -42724
+          )
+        )
+        (wire
+          (path Front 100
+            80232 -56000
+            80463 -56000
+          )
+        )
+        (wire
+          (path Front 100
+            80000 -56000
+            80232 -56000
+          )
+        )
+        (wire
+          (path Front 100
+            82000 -56250
+            80713 -56250
+            80463 -56000
+          )
+        )
+        (wire
+          (path Back 100
+            71500 -39250
+            72153 -39250
+          )
+        )
+      )
+    )
+  )
+)
